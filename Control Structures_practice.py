@@ -256,3 +256,31 @@ if num == reverse:
   print('Palindrome')
 else:
   print("Not Palindrome")
+
+###
+# Looping Statemets
+
+## 1
+
+name = input("Enter a name: ")
+n = int(input("No.of repetitions: "))
+
+i = 0
+
+for i in range(0, n):
+    i = i+1
+    print(name)
+
+## 2
+
+my_str = input("Enter a name: ")
+
+
+for i in range(len(my_str)):
+    if my_str[i]== 'a':
+        print(i)
+    else:
+        print('None')                       ### Correction needed in the code
+
+## 3
+
